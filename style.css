@@ -34,9 +34,8 @@
  
  .card {
    /* color: #d4cd96; */
-   color: #f0e8aa;
-   /* font-family: "Fira Sans", sans-serif; */
-   font-family: 'Pacifico', cursive;
+   color: white;
+   font-family: "Fira Sans", sans-serif;
    height: 100%;
    left: 0;
    position: absolute;
@@ -49,6 +48,10 @@
  }
  .card.flipped {
    transform: translateX(-100%) rotateY(-180deg);
+ }
+
+ .card-front{
+  font-family: 'Pacifico', cursive;
  }
  
  .card-front,
