@@ -14,8 +14,7 @@
  
  body {
    align-items: center;
-   /* background: linear-gradient(135deg, #404040, #333); */
-   background-color: rgb(255, 249, 239);
+   background-color: white;
    display: flex;
    justify-content: center;
    min-height: 100vh;
@@ -36,7 +35,8 @@
  .card {
    /* color: #d4cd96; */
    color: #f0e8aa;
-   font-family: "Fira Sans", sans-serif;
+   /* font-family: "Fira Sans", sans-serif; */
+   font-family: 'Pacifico', cursive;
    height: 100%;
    left: 0;
    position: absolute;
@@ -58,7 +58,7 @@
    background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), transparent 1px, rgba(0, 0, 0, 0.3) 2px);
    background-size: 3px 3px;
    /* background-color: #302f34; */
-   background-color: #2827CC;
+   background-color: #051367;
    border-radius: 1px;
    cursor: pointer;
    height: 100%;
@@ -77,7 +77,7 @@
    background-size: 3px 3px;
    /* background-color: #d4cd96; */
    /* background-color: #fff290;; */
-   background-color: #03203C;
+   background-color: #051367;
    /* color: #302f34; */
    color: white;
    border: 1px solid white;
@@ -133,6 +133,7 @@
    justify-content: center;
    position: relative;
    width: 100%;
+   border: 1px solid white;
  }
  .card-front .layer h1 {
    font-size: 32px;
