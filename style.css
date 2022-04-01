@@ -57,7 +57,8 @@
            backface-visibility: hidden;
    background: repeating-linear-gradient(135deg, rgba(0, 0, 0, 0.3), transparent 1px, rgba(0, 0, 0, 0.3) 2px);
    background-size: 3px 3px;
-   background-color: #302f34;
+   /* background-color: #302f34; */
+   background-color: #2827CC;
    border-radius: 1px;
    cursor: pointer;
    height: 100%;
@@ -75,8 +76,11 @@
    background: repeating-linear-gradient(135deg, rgba(76, 71, 31, 0.3), transparent 1px, rgba(76, 71, 31, 0.3) 2px);
    background-size: 3px 3px;
    /* background-color: #d4cd96; */
-   background-color: #fff290;;
-   color: #302f34;
+   /* background-color: #fff290;; */
+   background-color: #03203C;
+   /* color: #302f34; */
+   color: white;
+   border: 1px solid white;
    height: 100%;
    position: relative;
    width: 100%;
